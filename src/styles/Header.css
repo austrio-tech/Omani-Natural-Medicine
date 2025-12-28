@@ -1,13 +1,12 @@
 .header {
   background-color: #2c5f2d;
   color: white;
-  padding: 0.75rem 0;
+  padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 100;
   width: 100%;
-  overflow: hidden;
 }
 
 .header-container {
@@ -37,10 +36,11 @@
   font-weight: 700;
   margin: 0;
   white-space: nowrap;
+  color: #b8e6ba;
 }
 
 .logo:hover h1 {
-  color: #b8e6ba;
+  color: white;
 }
 
 .hamburger {
@@ -103,7 +103,7 @@
 
   .logo h1 {
     font-size: 0.85rem;
-    display: none;
+    /* display: none; */
   }
 
   .hamburger {
